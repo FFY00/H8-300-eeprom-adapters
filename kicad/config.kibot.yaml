@@ -1,0 +1,23 @@
+kibot:
+  version: 1
+
+outputs:
+- name: drill
+  comment: Generate drill files
+  type: excellon
+  dir: gerbers
+  options:
+    map: pdf
+- name: gerber
+  comment: Generate gerber files
+  type: gerber
+  dir: gerbers
+  layers: selected
+- name: compress_fab
+  comment: Generate the production gerbers ZIP file
+  type: compress
+  options:
+    files:
+      - from_output: drill
+      - from_output: gerber
+    output: '%f-gerbers%I%v.%x'
