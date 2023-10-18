@@ -9,7 +9,7 @@ firmware to be read with a standard EEPROM reader.
 Available Adapters
 ==================
 
-- H8/3318 PLCC-84 (`gerbers`__)
+- H8/3318 PLCC-84
 
   - EEPROM: ``HN27C101``
 
@@ -20,4 +20,14 @@ Assembly Notes
 ==============
 
 On the EEPROM footprint, headers should be soldered on the back side of the
-adapter PCB. Everything else should be assembled as normal.
+adapter PCB (see the pictures below). Everything else should be assembled as
+normal.
+
+
+.. list-table::
+
+   * - .. figure:: docs/assets/h8-3318-plcc-84-adapter-front.jpg
+          :alt: H8/3318 PLCC-84 adapter - front
+
+     - .. figure:: docs/assets/h8-3318-plcc-84-adapter-back.jpg
+          :alt: H8/3318 PLCC-84 adapter - back
