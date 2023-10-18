@@ -9,7 +9,11 @@ firmware to be read with a standard EEPROM reader.
 Available Adapters
 ==================
 
-- TBD
+- H8/3318 PLCC-84 (`gerbers`__)
+
+  - EEPROM: ``HN27C101``
+
+  - Equivalent: ``HS338ESC02H``, ``HS3337ESCS1H``
 
 
 Assembly Notes
