@@ -1,0 +1,9 @@
+# Project
+pcb/*/gerbers
+*-gerbers.zip
+
+# KiCad
+fp-info-cache
+*.lck
+*.kicad_*-bak
+pcb/*/*-backups
